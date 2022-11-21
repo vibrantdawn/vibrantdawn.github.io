@@ -18,8 +18,7 @@ hr {
 }
 
 .column {
-  float: left;
-  width: 33.33%;
+
 }
 .row {
   display: flex;
@@ -38,22 +37,37 @@ hr {
     }
 
   .column {
-    width: 100%;
-    flex: 25%;
-    padding: 0 4px;
+    width: 90%;
+    flex: 10%;
+  float: left;
+  width: 33.33%;
   }
 }
 
 .content {
+  display: none;
+  overflow: hidden;
   width: 100%;
-  padding: 2%;
-  border-width: 3px;
-  border-style: solid;
-  border-color: #ead14b;
+  padding: 0 18px;
   font-family: Serif;
   font-size: 14px;
+  font-color: #252525;
 }
 
+.collapsible {
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 18px;
+  border-width: 0px;
+  outline: none;
+
+}
+
+.active, .collapsible:hover {
+  background-color: transparent;
+}
 
 .footer {
   color: #28282B;
